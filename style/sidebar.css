@@ -1,0 +1,135 @@
+
+.navigation-section{
+    font-family: 'Inter', sans-serif;
+    color: var(--main-color--);
+    padding-top: 0.5rem;
+    z-index: 1;
+    color: var(--text-color--);
+}
+
+.logo,
+.top-section,
+.middle-section,
+.under-second-section,
+.bottom-section-container,
+#second-section,
+#top-section-container,
+button{
+    padding: 0;
+}
+
+
+.navigation-section div button{
+    background-color: var(--main-color-dark--);
+    border: none;
+}
+
+.navigation-section a img{
+    width: 100%;
+    max-width: 12rem;
+    cursor: pointer;
+}
+
+.top-section a{
+    margin: 0;
+}
+
+ul{
+    margin-top: 1.5rem;
+} 
+
+ul li {
+    list-style: none;
+    font-weight: 700
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--text-color--);
+    transition: color 0.3s text-decoration 0.3s ease-in-out;
+}
+
+ul svg,
+div svg{
+    margin: 0;
+}
+
+ul svg path {
+    fill: var(--text-color--);
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: baseline;
+    cursor: pointer;
+}
+.top-section:hover{
+    filter: brightness(150%);
+}
+
+.top-section li {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#home {
+    color: var(--main-color--);
+}
+
+#home svg path {
+    fill: var(--main-color--);
+}
+
+#library-icon svg path{
+    fill: var(--text-color--);
+}
+#second-section{
+    margin-top: 3rem;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.middle-section:hover {
+    filter: brightness(150%);
+}
+.middle-section li{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.under-second-section {
+    margin-top: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.under-second-section li:hover{
+    filter: brightness(150%);
+}
+
+.under-second-section li{
+    font-weight: 600;
+}
+
+.bottom-section-container{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section-container a{
+    text-decoration: none;
+    color: var(--main-color--);
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}

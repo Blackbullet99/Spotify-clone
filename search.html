@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify.com</title>
+    <link rel="stylesheet" href="./style/general.css">
+    <link rel="stylesheet" href="./style/sidebar.css">
+    <link rel="stylesheet" href="./style/section.css">
+    <link rel="stylesheet" href="./style/playbar.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/scrollbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <script src="https://kit.fontawesome.com/0b2ced85fa.js" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+
+    <section class="main-page">
+
+        <div class="sidebar-sec">
+            <nav class="navigation-section" id="navigation-section">
+                <div class="side-bar-container">
+                    <div class="logo">
+                        <button><a href="#"><img src="./images/Spotify_Logo_RGB_White.png" alt=""></a></button>
+                    </div>
+                    <ul id="top-section-container">
+                        <div class="top-section" id="home">
+                            <a href="./home.html" target="_parent">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29 29C29 29.5523 28.5523 30 28 30H20.2778C19.7255 30 19.2778 29.5523 19.2778 29V21.0526C19.2778 20.5003 18.8301 20.0526 18.2778 20.0526H14.7222C14.1699 20.0526 13.7222 20.5003 13.7222 21.0526V29C13.7222 29.5523 13.2745 30 12.7222 30H5C4.44772 30 4 29.5523 4 29V9.89769C4 9.54272 4.18817 9.21436 4.49443 9.0349L15.9962 2.29524C16.3075 2.11283 16.6929 2.11225 17.0047 2.29373L28.503 8.98543C28.8107 9.16451 29 9.49369 29 9.84972V29Z" fill="white"/>
+                                </svg>                    
+                            </a>
+                            <li><a href="./home.html" target="_parent">Home</a></li>
+                        </div>
+                        <div class="top-section">
+                            <a href="./search.html" target="_parent">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.7747 22.3561L29.5924 28.4934C30.1511 29.0828 30.1332 30.0268 29.5524 30.5933C28.9808 31.1511 28.078 31.1329 27.5282 30.5526L21.7061 24.4083C19.7272 25.93 17.4956 26.7673 15.0114 26.9203C13.3514 27.0226 11.7438 26.792 10.1886 26.2288C8.63335 25.6655 7.2766 24.8625 6.11833 23.8199C4.96006 22.7772 4.01249 21.5057 3.27561 20.0055C2.53874 18.5053 2.12096 16.9125 2.02229 15.2271C1.92361 13.5418 2.15262 11.9092 2.70933 10.3292C3.26604 8.74932 4.05852 7.37069 5.08678 6.19334C6.11504 5.01599 7.36839 4.05225 8.84685 3.30212C10.3253 2.55198 11.8945 2.1258 13.5543 2.02356C15.2142 1.92132 16.8218 2.15183 18.3771 2.7151C19.9324 3.27837 21.2892 4.08134 22.4474 5.12402C23.6055 6.16669 24.5531 7.43815 25.2901 8.93838C26.027 10.4386 26.4448 12.0314 26.5434 13.7168C26.606 14.7861 26.5356 15.8403 26.3321 16.8793C26.1287 17.9184 25.8096 18.8946 25.3747 19.8079C24.9399 20.7212 24.4066 21.5706 23.7747 22.3561ZM14.84 23.9912C16.1107 23.9129 17.3094 23.5854 18.436 23.0085C19.5626 22.4317 20.519 21.6933 21.305 20.7934C22.091 19.8934 22.6986 18.8412 23.1279 17.6365C23.5572 16.4319 23.7341 15.1845 23.6586 13.8944C23.5831 12.6042 23.262 11.3875 22.6953 10.2442C22.1286 9.10096 21.4026 8.13081 20.5173 7.33378C19.632 6.53674 18.5964 5.92105 17.4106 5.48669C16.2247 5.05232 14.9965 4.87428 13.7258 4.95255C12.4551 5.03081 11.2565 5.35835 10.1298 5.93514C9.00317 6.51194 8.04682 7.25035 7.26078 8.15038C6.47473 9.0504 5.86709 10.1027 5.43783 11.3072C5.00858 12.5117 4.83171 13.7591 4.90721 15.0494C4.98272 16.3396 5.3038 17.5563 5.87045 18.6995C6.4371 19.8427 7.16312 20.8128 8.04853 21.6099C8.93394 22.407 9.96951 23.0227 11.1552 23.457C12.341 23.8913 13.5692 24.0694 14.84 23.9912Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <li><a href="./search.html" target="_parent">Search</a></li>                        
+                        </div>
+                        <div class="top-section">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="3" height="26" rx="1.5" fill="#b3b3b3"/>
+                                <rect x="11" y="3" width="3" height="26" rx="1.5" fill="#b3b3b3"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 6.67524V26.5191H26.5V9.76681L21.5 6.67524ZM20.5288 3.1517C19.8627 2.73984 19 3.21512 19 3.99394V28.0076C19 28.5557 19.4477 29 20 29H28C28.5523 29 29 28.5557 29 28.0076V8.94045C29 8.59781 28.8219 8.2794 28.5288 8.09821L20.5288 3.1517Z" fill="white"/>
+                                </svg>
+                            <li><a href="#">Your Library</a></li>                        
+                        </div>
+                    </ul>
+                    <ul id="second-section">
+                        <div class="middle-section" id="create-playlist">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0C0.895431 0 0 0.895431 0 2V30C0 31.1046 0.895431 32 2 32H30C31.1046 32 32 31.1046 32 30V2C32 0.895431 31.1046 0 30 0H2ZM15 9H17V15H23V17H17V23H15V17H9V15H15V9Z" fill="white"/>
+                                </svg>                        
+                            <li>Create Playlist</li>
+                        </div>
+                        <div class="middle-section" id="liked-songs">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="32" height="32" rx="2" fill="url(#paint0_linear_124_3039)"/>
+                                <path d="M16.0006 10.158C17.6448 8.56071 20.1858 8.61373 21.7699 10.3307C23.3532 12.0484 23.4078 14.784 21.9351 16.5684L15.9992 23L10.0647 16.5684C8.59191 14.784 8.64721 12.0439 10.2299 10.3307C11.8154 8.616 14.3514 8.55844 16.0006 10.158Z" fill="white"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_124_3039" x1="1" y1="1" x2="32" y2="30.5" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#3822EA"/>
+                                <stop offset="1" stop-color="#C7E9D7"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>                        
+                            <li>Liked Songs</li>
+                        </div>
+                        <ul class="under-second-section">
+                            <li>Afro Throwback</li>
+                            <li>Love Don't Cost A Dime</li>
+                            <li>Pure Vibes</li>
+                            <li>Chill Your Mind</li>
+                            <li>Party Dey!</li>
+                            <li>Vibing Songs</li>
+                        </ul>
+                    </ul>
+                    <div class="bottom-section-container" id="third-section">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 12L12 17L7 12M12 6V16V6ZM12 1C18.075 1 23 5.925 23 12C23 18.075 18.075 23 12 23C5.925 23 1 18.075 1 12C1 5.925 5.925 1 12 1Z" stroke="white" stroke-width="2"/>
+                            </svg>
+                        <a href="https://www.spotify.com/us/download">Install App</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        <div class="search-content-sec">
+
+            <header class="header-sec" id="header-sec">
+                <h2>
+                    Search
+                </h2>
+                <div class="toggle-nav">
+                    <button>
+                        <a href="./index.html" target="_parent">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </a>
+                    </button>
+                    <button>
+                        <a href="./search.html" target="_parent">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </button>
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass">
+                        </i>
+                        <input type="text" placeholder="Artists, songs, or podcasts">
+                    </span>
+                </div>
+                <div class="user-dropdown-button">
+                    <div class="user-sec">
+                        <button class="user-icon"><i class="fa-solid fa-user-large"></i></button>
+                        <div class="user-dropdown">
+                            Zeke <span><i class="fa-solid fa-caret-down"></i></span>
+                        </div>
+                    </div>
+                    <div class="user-dropdown-menu">
+                        <ul>
+                            <li><a href="#">Account</a><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Support</a><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></li>
+                            <li><a href="#">Download</a><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></li>
+                            <li><a href="#">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <section class="main-body">
+
+                <section class="top-genres-info">
+                    <div>
+                        <h2 class="top-genres">
+                            Your top genres
+                        </h2>
+                    </div>
+                    <div class="genre-selection">
+                       <div class="afro">
+                            <p>Afro</p>
+                            <img src="./Search-Section-img/Afro Hits.jfif" alt="">
+                       </div>
+                       <div class="pop">
+                            <p>Pop</p>
+                            <img src="/Search-Section-img/Pop.jfif" alt="">
+                       </div>
+                       <div class="hip-hop">
+                            <p>Hip-Hop</p>
+                            <img src="./Search-Section-img/Hip-Hop.jfif" alt="">
+                       </div>
+                       <div class="rb">
+                            <p>R&B</p>
+                            <img src="./Search-Section-img/R&B.jfif" alt="">
+                       </div>
+                    </div>
+                </section>
+
+                <section class="genre-catelog-sec">
+                    <div>
+                        <h2>
+                            Browse all
+                        </h2>
+                    </div>
+                    <div class="genre-info-sec">
+                        <div class="podcast">
+                            <h3>Podcast</h3>
+                            <img src="./Search-Section-img/Podcast.jfif" alt="">
+                        </div>
+                        <div class="made-for-you">
+                            <h3>Made for you</h3>
+                            <img src="./Search-Section-img/Made for you.png" alt="">
+                        </div>
+                        <div class="charts">
+                            <h3>Charts</h3>
+                            <img src="./Search-Section-img/Top songs global.jpg" alt="">
+                        </div>
+                        <div class="new-releases">
+                            <h3>New releases</h3>
+                            <img src="./Search-Section-img/New Releases.jfif" alt="">     
+                        </div>
+                        <div class="discover">
+                            <h3>Discover</h3>
+                            <img src="./Search-Section-img/Discover.jpeg" alt=""> 
+                        </div>
+                        <div class="live-events">
+                            <h3>Live events</h3>
+                            <img src="./Search-Section-img/Live events.jfif" alt="">    
+                        </div>
+                        <div class="frequency">
+                            <h3>Frequency</h3>
+                            <img src="./Search-Section-img/Frequency.jfif" alt="">    
+                        </div>
+                        <div class="christian-gospel">
+                            <h3>Christian & Gospel</h3>
+                            <img src="./Search-Section-img/gospel.jpeg" alt="">
+                        </div>
+                        <div class="soul">
+                            <h3>Soul</h3>
+                            <img src="./Search-Section-img/Soul.jfif" alt="">
+                        </div>
+                        <div class="chill">
+                            <h3>Chill</h3>
+                            <img src="./Search-Section-img/Chill.jfif" alt="">
+                        </div>
+                        <div class="mood">
+                            <h3>Mood</h3>
+                            <img src="./Search-Section-img/Mood.jfif" alt="">
+                        </div>
+                        <div class="equal">
+                            <h3>EQUAL</h3>
+                            <img src="./Search-Section-img/Equal.jfif" alt="">     
+                        </div>
+                        <div class="alternative">
+                            <h3>Alternative</h3>
+                            <img src="./Search-Section-img/Alternative.jpeg" alt=""> 
+                        </div>
+                        <div class="workout">
+                            <h3>Workout</h3>
+                            <img src="./Search-Section-img/Workout.jpg" alt="">    
+                        </div>
+                        <div class="party">
+                            <h3>Party</h3>
+                            <img src="./Search-Section-img/Party.jfif" alt="">    
+                        </div>
+                        <div class="focus">
+                            <h3>Focus</h3>
+                            <img src="./Search-Section-img/Focus.jfif" alt="">
+                        </div>
+                        <div class="sleep">
+                            <h3>Sleep</h3>
+                            <img src="./Search-Section-img/Sleep.jfif" alt="">
+                        </div>
+                        <div class="decades">
+                            <h3>Decades</h3>
+                            <img src="./Search-Section-img/Decades.jfif" alt="">
+                        </div>
+                        <div class="radar">
+                            <h3>RADAR</h3>
+                            <img src="./Search-Section-img/Radar.png" alt="">
+                        </div>
+                        <div class="dance">
+                            <h3>Dance/
+                                Electronic</h3>
+                            <img src="./Search-Section-img/Dance.jfif" alt="">     
+                        </div>
+                        <div class="trending">
+                            <h3>Trending</h3>
+                            <img src="./Search-Section-img/Trending.jpg" alt=""> 
+                        </div>
+                        <div class="jazz">
+                            <h3>Jazz</h3>
+                            <img src="./Search-Section-img/Jazz.jfif" alt="">    
+                        </div>
+                        <div class="gaming">
+                            <h3>Gaming</h3>
+                            <img src="./Search-Section-img/Gaming.jfif" alt="">    
+                        </div>
+                        <div class="travel">
+                            <h3>Travel</h3>
+                            <img src="./Search-Section-img/Travel.png" alt="">
+                        </div>
+                        <div class="indie">
+                            <h3>Indie</h3>
+                            <img src="./Search-Section-img/Indie.jfif" alt="">
+                        </div>
+                        <div class="at-home">
+                            <h3>At Home</h3>
+                            <img src="./Search-Section-img/At home.jfif" alt="">
+                        </div>
+                        <div class="wellness">
+                            <h3>Wellness</h3>
+                            <img src="./Search-Section-img/Wellness.jfif" alt="">
+                        </div>
+                        <div class="higher">
+                            <h3>Higher 
+                                Ground</h3>
+                            <img src="./Search-Section-img/Higher.jfif" alt="">     
+                        </div>
+                        <div class="movies">
+                            <h3>TV & Movies</h3>
+                            <img src="./Search-Section-img/Movies.jfif" alt=""> 
+                        </div>
+                        <div class="league">
+                            <h3>League of Legends</h3>
+                            <img src="./Search-Section-img/League.jfif" alt="">    
+                        </div>
+                        <div class="kids">
+                            <h3>Kids & Family</h3>
+                            <img src="./Search-Section-img/Kids.png" alt="">    
+                        </div>
+                        <div class="classical">
+                            <h3>Classical</h3>
+                            <img src="./Search-Section-img/Classical.jfif" alt="">
+                        </div>
+                        <div class="folk">
+                            <h3>Folk & Acoustic</h3>
+                            <img src="./Search-Section-img/Folk.jfif" alt="">
+                        </div>
+                        <div class="funk">
+                            <h3>Funk</h3>
+                            <img src="./Search-Section-img/Funk.jfif" alt="">
+                        </div>
+                        <div class="blues">
+                            <h3>Blues</h3>
+                            <img src="./Search-Section-img/Blues.jfif" alt="">
+                        </div>
+                        <div class="caribbean">
+                            <h3>Caribbean</h3>
+                            <img src="./Search-Section-img/Caribbean.jfif" alt="">     
+                        </div>
+                        <div class="songwriter">
+                            <h3>Songwriters</h3>
+                            <img src="./Search-Section-img/Songwriter.jfif" alt=""> 
+                        </div>
+                        <div class="instrumental">
+                            <h3>Instrumental</h3>
+                            <img src="./Search-Section-img/Instrumental.jfif" alt="">    
+                        </div>
+                        <div class="country">
+                            <h3>Country</h3>
+                            <img src="./Search-Section-img/Country.jfif" alt="">    
+                        </div>
+                        <div class="latin">
+                            <h3>Latin</h3>
+                            <img src="./Search-Section-img/Latin.jfif" alt="">
+                        </div>
+                        <div class="arab">
+                            <h3>Arab</h3>
+                            <img src="./Search-Section-img/Arab.jfif" alt="">
+                        </div>
+                        <div class="rock">
+                            <h3>Rock</h3>
+                            <img src="./Search-Section-img/Rock.jfif" alt="">
+                        </div>
+                        <div class="k-pop">
+                            <h3>K-Pop</h3>
+                            <img src="./Search-Section-img/K-pop.jfif" alt="">
+                        </div>
+                        <div class="ambient">
+                            <h3>Ambient</h3>
+                            <img src="./Search-Section-img/Ambient.jfif" alt="">     
+                        </div>
+                        <div class="summer">
+                            <h3>Summer</h3>
+                            <img src="./Search-Section-img/Summer.jpeg" alt=""> 
+                        </div>
+                    </div>
+                </section>
+               
+            </section>
+
+            <footer class="footer-sec">
+                <div class="about">
+                    <div class="about-list-sec">
+                        <div>
+                            <ul>
+                                <h4>Company</h4>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">For the Record</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Communities</h4>
+                                <li><a href="#">For Artists</a></li>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Vendors</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Useful links</h4>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <div class="documentation-sec">
+                    <div>
+                        <span><a href="#">Legal</a></span>
+                        <span><a href="#">Privacy Center</a></span>
+                        <span><a href="#">Privacy Policy</a></span>
+                        <span><a href="#">Cookies</a></span>
+                        <span><a href="#">About Ads</a></span>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2022 Spotify AB
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    
+        <div class="footer">
+            <div class="playbar-container">
+
+                <div class="song-display-container">
+                    <img src="./images/Burna-Boy.jfif" alt="">
+                    <div>
+                        <h4>It's Plenty</h4>
+                        <p>Burna Boy</p>
+                    </div>
+                    <div>
+                        <button><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                </div>
+
+                <div class="player-control centre-items">
+                    <div class="play-control-sec">
+                        <div class="left">
+                            <button>
+                                <i class="fa-solid fa-shuffle"></i>
+                            </button>
+                           <button>
+                               <i class="fa-solid fa-backward-step"></i>
+                           </button> 
+                        </div>
+                        <div class="middle">
+                            <button>
+                                <i class="fa-solid fa-circle-pause"></i>
+                            </button>
+                        </div>
+                        <div class="right">
+                            <button>
+                                <i class="fa-solid fa-forward-step"></i>
+                            </button>
+                            <button>
+                                <i class="fa-solid fa-repeat"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="playbar-sec">
+                        <p class="progress-timer">
+                            3:18
+                        </p>
+                        <p class="playbar"></p>
+                        <p class="progress-timer">
+                            3.18
+                        </p>
+                    </div>      
+                </div>
+
+                <div class="control-btn-icon centre-items">
+                    <button>
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="desktop-picker">
+                        <i class="fa-solid fa-tv"></i>
+                    </button>
+                    <button class="volume">
+                        <i class="fa-solid fa-volume-low"></i>
+                    </button>
+                    <div class="volume-controller">
+                    </div>
+                    <button>
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+.footer-sec,
+.documentation-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-sec{
+    padding: 1.5em;
+    padding-top: 4em;
+    flex-direction: column;
+    padding-bottom: 8.5rem;
+}
+
+.footer-sec .about{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+}
+
+.about-list-sec div{
+    display: flex;
+}
+
+.about-list-sec ul{
+    margin: 0;
+    padding: 0;
+}
+
+.about-list-sec div ul{
+    margin-right: 6rem;
+    line-height: 2.4rem;
+}
+
+.about-list-sec div ul li{
+    font-weight: 400;
+}
+
+.social-links button{
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    padding: 11px 13px 10px 13px;
+    border-radius: 10rem;
+    background-color: rgb(255 255 255 / 0.1);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-links button:hover{
+    background-color: rgba(255 255 255 / 0.3);
+}
+
+.social-links button i{
+    color: var(--main-color--);
+    font-size: 0.9rem;
+}
+
+.separator{
+    width: 100%;
+    padding: 0.01rem;
+    background-color: rgb(255 255 255 / 0.1);
+    margin: 0.5rem 0;
+}
+
+.documentation-sec{
+    padding-top: 1.2rem;
+    margin-bottom: 1rem;
+    align-items: baseline;
+}
+
+.documentation-sec div span, 
+.copyright{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.copyright{
+    font-weight: 400;
+}
+
+.documentation-sec div span a, .copyright{
+    color: var(--text-color--);
+    text-decoration: none;
+}
+
+.documentation-sec div span a:hover{
+    color: var(--main-color--);
+    text-decoration: underline;
+}
