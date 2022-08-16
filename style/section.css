@@ -366,3 +366,244 @@
 .country{
     background-color: rgb(203,64,18);
 }
+
+/* Playlist Section */
+.main-top-section{
+    background-color: var(--playlist-background-header);
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    max-height: 500px;
+    min-height: 340px;
+    padding-left: 30px;
+    color: white;
+    line-height: 1.2;
+    align-items: center;
+}
+
+.the-image{
+    height: 232px;
+    min-width: 232px;
+    width: 232px;
+}
+
+.the-image img{
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+.the-title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.the-title h2{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.the-title h1{
+    font-size: 96px;
+}
+
+.playlist-details{
+    line-height: 1.8;
+    color: hsla(0,0%,100%,.7);
+    position: absolute;
+    bottom: 20px;
+    width: max-content;
+}
+
+.playlist-details span{
+    color: white;
+}
+
+.number-of-likes a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.number-of-likes .duration-2{
+    color: hsla(0,0%,100%,.7);
+}
+
+.artist-link{
+    cursor: pointer;
+}
+
+.mid-bar-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
+
+.mid-bar-section button{
+    border: none;
+    height: 70px;
+    width: 70px;
+}
+
+.play-button-green{
+    margin-right: 20px;
+}
+
+.play-button-green-itself{
+    background-color: #1ed760;
+    border-radius: 500px;
+}
+
+.play-button-green-itself:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.play-button-green-itself svg{
+    height: 37px;
+    width: 37px;
+}
+
+.like-btn-playlist,
+.playlist-options{
+    background: transparent;
+    /* display: flex; */
+    color: hsla(0,0%,100%,.7);
+}
+
+.like-btn-playlist svg:hover{
+    fill: white;
+}
+
+.playlist-options svg:hover{
+    fill: white;
+}
+
+.like-btn-playlist svg,
+.playlist-options svg{
+    fill: #b3b3b3;
+}
+
+.list-table{
+    border: 1px solid transparent;
+    outline: 0;
+    border-radius: 4px;
+}
+
+.top-of-list-container{
+    position: sticky;
+}
+
+.top-of-list{
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-columns: 10px 500px 400px 500px 0;
+    row-gap: 16px;
+    column-gap: 16px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.top-of-list span{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b3b3b3;
+    font-weight: 700;
+}
+
+.top-of-list .asterisk{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.top-of-list svg{
+    margin-left: 120px;
+    fill: #b3b3b3;
+}
+
+.line{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+.row-1{
+    display: grid;
+    grid-template-columns: 10px 570px 440px 440px 100px;
+    row-gap: 16px;
+    column-gap: 30px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+
+.song-title-playlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.song-container-playlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row-1 div{
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+/* .row-element{
+    margin-left: 120px;
+} */
+
+#time-duration{
+    display: flex;
+    align-items: center;
+    /* margin-right: 50px;
+    padding-left: 80px; */
+    position: absolute;
+    right: 80px;
+}
+
+#time-duration svg{
+    padding-right: 30px;
+    fill: #b3b3b3;
+    /* visibility: hidden; */
+}
+
+.row-1 > #time-duration svg {
+    visibility: hidden;
+}
+
+.row-1:hover > #time-duration svg{
+    visibility: visible;
+}
+
+.numbering:hover{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' role='img' height='40' width='40' class='Svg-ytk21e-0 jAKAlG UIBT7E6ZYMcSDl1KL62g' viewBox='0 0 24 24'%3E%3Cpath d='M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.song-description{
+    margin-left: 20px;
+    padding-bottom: 8px;
+}
+
+.main-title{
+    color: white;
+    font-size: larger;
+}
